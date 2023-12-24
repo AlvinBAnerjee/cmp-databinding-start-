@@ -5,5 +5,5 @@ import { Component, Input } from '@angular/core';
   templateUrl: './server-element.component.html'
 })
 export class ServerElementComponent {
-element : {type:string, name:string, content:string};
+ @Input() element : {type:string, name:string, content:string};
 }
